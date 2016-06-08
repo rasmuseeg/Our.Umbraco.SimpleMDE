@@ -1,0 +1,18 @@
+{
+  "propertyEditors": [
+    {
+      "alias": "Our.SimpleMDE",
+      "name": "Simple Markdown Editor",
+      "editor": {
+        "valueType": "TEXT",
+        "view": "~/App_Plugins/SimpleMDE/view/simplemde.html"
+      }
+    }
+  ],
+  "css": [ "~/App_Plugins/SimpleMDE/css/simplemde.min.css" ],
+  "javascript": [
+    "~/App_Plugins/SimpleMDE/js/simplemde.min.js",
+    "~/App_Plugins/SimpleMDE/js/simplemde.directive.js",
+    "~/App_Plugins/SimpleMDE/js/simplemde.controller.js"
+  ]
+}

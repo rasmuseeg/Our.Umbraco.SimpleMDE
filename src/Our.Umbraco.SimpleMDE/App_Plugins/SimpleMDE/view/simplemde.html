@@ -1,0 +1,10 @@
+<div ng-controller="SimpleMDEController">
+    <ui-simplemde ng-model="model.value" ng-config="editorConfig"></ui-simplemde>
+
+    <umb-overlay
+      ng-if="mediaPickerOverlay.show"
+      model="mediaPickerOverlay"
+      position="right"
+      view="mediaPickerOverlay.view">
+   </umb-overlay>
+</div>
